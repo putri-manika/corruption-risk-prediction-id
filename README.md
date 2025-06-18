@@ -20,6 +20,8 @@ https://deteksi-risiko-korupsi-tender-pengadaan.streamlit.app/
 ## Dataset
 Data diambil dari Global Contract-level Public Procurement Dataset (2008–2021), difokuskan pada entri tahun 2021 untuk negara Indonesia. Variabel target adalah CRI (Corruption Risk Index), yang dikonversi menjadi label biner untuk klasifikasi.
 
+Sumber Dataset: https://www.sciencedirect.com/science/article/pii/S2352340924003810?ref=pdf_download&fr=RR-2&rr=930b93990f309b8b
+
 ## Tahapan Proyek
 1. EDA (Exploratory Data Analysis)
 
