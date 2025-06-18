@@ -50,27 +50,27 @@ Data diambil dari Global Contract-level Public Procurement Dataset (2008–2021)
 ## Hasil Evaluasi
 Model	Machine Learning:
 
-Random Forest Manual	94.9%	
+- Random Forest Manual	94.9%	
 
-SVM Manual	68.9%	
+- SVM Manual	68.9%	
 
 Model Random Forest menunjukkan performa yang jauh lebih stabil dan akurat dibandingkan SVM.
 
 ## Fitur Aplikasi Web
-Input data tender melalui form (jenis prosedur, jumlah penawar, harga, validitas, dll.)
+- Input data tender melalui form (jenis prosedur, jumlah penawar, harga, validitas, dll.)
 
-Output prediksi dari dua model (RF dan SVM)
+- Output prediksi dari dua model (RF dan SVM)
 
-Indikator status risiko: "Aman" atau "Terdeteksi Risiko"
+- Indikator status risiko: "Aman" atau "Terdeteksi Risiko"
 
-Penjelasan otomatis mengapa tender dianggap berisiko
+- Penjelasan otomatis mengapa tender dianggap berisiko
 
-Fitur ekspor hasil prediksi ke file Excel
+- Fitur ekspor hasil prediksi ke file Excel
 
 ## Tim Pengembang
 
-Muhammad Zaky Taj Aldien 
+1. Muhammad Zaky Taj Aldien (065)
 
-Putri Manika Rumamaya
+2. Putri Manika Rumamaya (091)
 
-Sintiya Risla Miftaqul Nikmah 
+3. Sintiya Risla Miftaqul Nikmah (244)
