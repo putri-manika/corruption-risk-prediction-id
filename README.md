@@ -54,6 +54,7 @@ Confusion Matrix
 # Hasil Evaluasi
 Model	Akurasi	Precision	Recall	F1-score
 Random Forest Manual	94.9%	0.99 / 0.92	0.91 / 0.99	0.95
+
 SVM Manual	68.9%	0.67 / 0.71	0.73 / 0.65	0.69
 
 Model Random Forest menunjukkan performa yang jauh lebih stabil dan akurat dibandingkan SVM.
@@ -70,10 +71,9 @@ Penjelasan otomatis mengapa tender dianggap berisiko
 Fitur ekspor hasil prediksi ke file Excel
 
 # Tim Pengembang
-Kelompok 5 - Kelas 2023B, Prodi S1 Sains Data, Universitas Negeri Surabaya:
 
-Muhammad Zaky Taj Aldien (23031554065)
+Muhammad Zaky Taj Aldien 
 
-Putri Manika Rumamaya (23031554091)
+Putri Manika Rumamaya
 
-Sintiya Risla Miftaqul Nikmah (23031554204)
+Sintiya Risla Miftaqul Nikmah 
