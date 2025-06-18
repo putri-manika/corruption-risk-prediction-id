@@ -4,13 +4,13 @@ Sistem ini dirancang untuk memprediksi potensi risiko korupsi dalam tender penga
 ## Deskripsi Proyek
 Korupsi dalam sektor pengadaan publik menjadi isu utama di Indonesia. Proyek ini membangun sistem prediksi berbasis data yang dapat membantu mengidentifikasi tender yang berisiko korupsi berdasarkan fitur-fitur kunci seperti:
 
-jumlah penawar,
+- jumlah penawar
 
-harga penawaran,
+- harga penawaran
 
-jenis prosedur,
+- jenis prosedur
 
-durasi pengajuan/keputusan, dan lainnya.
+- durasi pengajuan/keputusan, dan lainnya.
 
 Model prediksi diimplementasikan ke dalam aplikasi web berbasis Streamlit, sehingga dapat diakses dan digunakan oleh pengguna non-teknis.
 
@@ -21,35 +21,31 @@ https://deteksi-risiko-korupsi-tender-pengadaan.streamlit.app/
 Data diambil dari Global Contract-level Public Procurement Dataset (2008–2021), difokuskan pada entri tahun 2021 untuk negara Indonesia. Variabel target adalah CRI (Corruption Risk Index), yang dikonversi menjadi label biner untuk klasifikasi.
 
 ## Tahapan Proyek
-EDA (Exploratory Data Analysis)
+1. EDA (Exploratory Data Analysis)
 
-Distribusi fitur numerik dan kategorik
+2. Distribusi fitur numerik dan kategorik
 
-Korelasi fitur terhadap target (CRI)
+3. Korelasi fitur terhadap target (CRI)
 
-Analisis distribusi kelas target
+4. Analisis distribusi kelas target
 
-Pre-Processing
+5. Pre-Processing
 
-Penanganan missing values
+6. Penanganan missing values
 
-Deteksi outlier
+7. Deteksi outlier
 
-SMOTE untuk menangani imbalance
+8. SMOTE untuk menangani imbalance
 
-Transformasi label dari nilai CRI
+9. Transformasi label dari nilai CRI
 
-Modeling
+10. Modeling:
 
-Random Forest Manual (dengan perhitungan entropy, information gain, dan voting mayoritas)
+    - Random Forest Manual (dengan perhitungan entropy, information gain, dan voting mayoritas)
+ 
+    - SVM Manual (dengan optimasi SMO, α, w, dan b)
 
-SVM Manual (dengan optimasi SMO, α, w, dan b)
-
-Evaluasi
-
-Accuracy, Precision, Recall, F1-Score
-
-Confusion Matrix
+12. Evaluasi (Accuracy, Precision, Recall, F1-Score, Confusion Matrix)
 
 ## Hasil Evaluasi
 Model	Machine Learning:
